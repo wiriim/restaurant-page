@@ -45,8 +45,11 @@ nav button{
     color: inherit;
 }
 
+nav button.active,
 nav button:hover{
     text-decoration: underline;
+    line-height: 1rem;
+    text-underline-offset: 10px;
 }
 
 #content{
