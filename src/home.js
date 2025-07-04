@@ -2,7 +2,7 @@ import ramensimple from './images/ramen-simple.jpg';
 import ramenbanner from './images/ramen-banner.jpg';
 import ramencomplex from './images/ramen-complex.jpg';
 
-function loadHomePage(){
+export default function loadHomePage(){
     let divContent = document.querySelector('#content');
     let homepage = create('div');
     homepage.classList.add('home-page');
@@ -71,6 +71,4 @@ function create(type){
     let dummy = document.createElement(type);
     return dummy;
 }
-
-export default loadHomePage;
 
